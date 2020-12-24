@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 /** globales**/
@@ -27,6 +28,12 @@ h3 {
 
 h4 {
     font-size: 2.8rem;
+}
+
+/**  utilidades**/
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /** header **/
@@ -73,4 +80,27 @@ h4 {
 
 .navegacion a:last-of-type {
     margin: 0px;
+}
+
+/** iconos nosotros**/
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
 }
